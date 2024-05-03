@@ -11,7 +11,6 @@ function App() {
   return (
     <>
       <Navbar />
-      <h1>app home</h1>
       <Home />
       <Skills />
       <Experiences />
