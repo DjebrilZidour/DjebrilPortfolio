@@ -5,8 +5,6 @@ const Navbar = () => {
 
   return (
     <>
-     
-
       <nav
         style={{ backgroundColor: "#FFFDCB" }}
         className="shadow-lg px-16 py-2 rounded-bl-3xl"

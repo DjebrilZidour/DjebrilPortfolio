@@ -1,4 +1,9 @@
-const Footer = ()=>{
-
-}
-export default Footer
+const Footer = () => {
+  <footer>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+  </footer>;
+};
+export default Footer;
