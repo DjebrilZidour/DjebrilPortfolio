@@ -4,6 +4,7 @@ import Home from "../pages/Home";
 import Experiences from "../pages/Experiences";
 import Contact from "../pages/Contact";
 import Skill from "../pages/Skill";
+import Education from "../pages/Education";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -13,6 +14,7 @@ function App() {
       <Navbar />
       <Home />
       <Skill/>
+      <Education/>
       <Experiences />
       <Contact />
     </>

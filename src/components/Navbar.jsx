@@ -28,6 +28,9 @@ const Navbar = () => {
                 experiences
               </li>
               <li className="px-4 font-semibold text-black cursor-pointer hover:underline text-2xl capitalize">
+                experiences
+              </li>
+              <li className="px-4 font-semibold text-black cursor-pointer hover:underline text-2xl capitalize">
                contact me
               </li>
            

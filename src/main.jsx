@@ -8,6 +8,10 @@ const router = createBrowserRouter([
     path:"/",
     element: <App/>
   },
+  {
+    path:"/github",
+    element:"https://github.com/DjebrilZidour"
+  }
 ])
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
