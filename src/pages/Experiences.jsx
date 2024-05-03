@@ -1,7 +1,7 @@
 const Experiences = () => {
   return (
     <section>
-      <h1>diplomes</h1>
+      <h1>experiances</h1>
       <div></div>
       <div></div>
       <div></div>

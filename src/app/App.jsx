@@ -1,9 +1,9 @@
 import { useState } from "react";
 import Navbar from "../components/Navbar";
 import Home from "../pages/Home";
-import Skills from "../pages/Skills";
 import Experiences from "../pages/Experiences";
 import Contact from "../pages/Contact";
+import Skill from "../pages/Skill";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -12,9 +12,9 @@ function App() {
     <>
       <Navbar />
       <Home />
+      <Skill/>
       <Experiences />
       <Contact />
-      <Skills />
     </>
   );
 }
