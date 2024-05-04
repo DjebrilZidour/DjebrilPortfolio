@@ -9,9 +9,20 @@ body{
       
 }
 
+
 .home{
         background-image: url("https://i.ibb.co/x51KJcv/Design-sans-titre.png");
         background-size: cover;
         background-repeat: no-repeat;
         height: 100vh;
 }
+
+
+@media screen and (max-width:640px) {
+        .home {
+                background-image: url("https://i.ibb.co/0hP1dzz/Design-sans-titre-copy.png");
+                background-size:       cover;
+                background-repeat: no-repeat;
+                height: 100vh;
+        }
+      }
