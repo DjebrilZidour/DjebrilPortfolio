@@ -6,9 +6,9 @@ const Skill =()=>{
         </div>
 
        
-        <section className="flex justify-center items-center gap-4 mx-12 my-12 gap-32">
+        <section className="flex justify-center flex-col lg-:flex-row items-center gap-4 mx-12 my-12 gap-32">
        
-        <div className="flex flex-col justify-center items-start gap-4">
+        <div className="flex flex-col justify-center items-center lg:items-center gap-4">
         <h1 className="text-5xl">My skills</h1>
           <p className="w-96 text-2xl">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Id quis magni
