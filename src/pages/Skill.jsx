@@ -14,7 +14,7 @@ const Skill =()=>{
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Id quis magni
             temporibus recusandae dolorum dolore iusto, vitae aperiam, quaerat
             aliquam autem incidunt esse nobis enim voluptate, beatae praesentium
-            adipisci reprehenderit.
+            adipisci reprehenderit. dont forget bootstrap to add it 
           </p>
         </div>
         
