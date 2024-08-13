@@ -11,16 +11,16 @@ body{
 
 
 .home{
-        background-image: url("https://i.ibb.co/x51KJcv/Design-sans-titre.png");
+        background-image: url("https://i.ibb.co/mR74jRc/Design-sans-titre.png");
         background-size: cover;
         background-repeat: no-repeat;
-        height: 100vh;
+        height: 90vh;
 }
 
 
 @media screen and (max-width:640px) {
         .home {
-                background-image: url("https://i.ibb.co/0hP1dzz/Design-sans-titre-copy.png");
+                background-image: url("https://i.ibb.co/mR74jRc/Design-sans-titre.png");
                 background-size:       cover;
                 background-repeat: no-repeat;
                 height: 100vh;

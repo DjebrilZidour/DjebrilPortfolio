@@ -20,7 +20,7 @@ const Contact = () => {
         </div>
       </div>
 
-      <div className="flex justify-center items-center gap-16 ">
+      {/* <div className="flex justify-center items-center gap-16 ">
         <div className="flex justify-center items-center flex-col gap-8">
           <h1>check my github over here</h1>
           <img
@@ -54,7 +54,7 @@ const Contact = () => {
             alt=""
           />
         </div>
-      </div>
+      </div> */}
 
       <h1>can't wait to work with you</h1>
     </section>

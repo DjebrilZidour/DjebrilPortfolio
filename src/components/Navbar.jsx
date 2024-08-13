@@ -7,7 +7,7 @@ const Navbar = () => {
     <>
       <nav
         style={{ backgroundColor: "#FFFDCB" }}
-        className="shadow-lg px-16 py-2 rounded-bl-3xl"
+        className="shadow-lg px-16 py-2 rounded-bl-3xl mb-2"
       >
         <ul className="list-none flex justify-between items-center">
           <li className="flex justify-center items-center gap-2">

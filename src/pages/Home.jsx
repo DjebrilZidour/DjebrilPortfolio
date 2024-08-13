@@ -7,9 +7,9 @@ const Home = () => {
   const navigate = useNavigate()
   return (
     <>
-      <section className="flex lg:justify-between lg:items-center items-start  my-8 home px-12  ">
+      <section className="flex lg:justify-between lg:items-center items-start home px-12  ">
         
-        <div className="flex flex-col lg:items-start lg:items-start lg:justify-center lg:w-1/2 lg:gap-4 gap-12 mt-24">
+        <div className="flex flex-col lg:items-start lg:items-start lg:justify-center lg:w-1/2 lg:gap-4 gap-12 ">
           <h1 className="text-5xl ">
             My Name is{" "}
             <TypeAnimation
