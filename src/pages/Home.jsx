@@ -8,9 +8,9 @@ const Home = () => {
   return (
     <>
       <section className="flex md:flex-row flex-col lg:justify-between lg:items-center items-start px-12  py-4">
-        <div className="flex flex-col lg:items-start lg:items-start lg:justify-center md:w-1/2 lg:gap-4 gap-12 p-4">
-          <h1 className="md:text-5xl text-3xl">
-            My Name is{" "}
+        <div className="flex flex-col md:items-start md:items-start md:justify-center md:w-1/2 lg:gap-4 gap-12 p-4">
+          <h1 className=" text-4xl text-center md:hidden">
+            My Name is : <br />{" "}
             <TypeAnimation
               sequence={[
                 // Same substring at the start will only be typed out once, initially
@@ -31,7 +31,29 @@ const Home = () => {
               repeat={Infinity}
             />
           </h1>
-          <p className="text-xl">
+          <h1 className="md:text-5xl text-3xl hidden md:block">
+            My Name is : {" "}
+            <TypeAnimation
+              sequence={[
+                // Same substring at the start will only be typed out once, initially
+                "Djebril Zidour",
+                1000, // wait 1s before replacing "Mice" with "Hamsters"
+                "",
+                1000,
+                "Djebril Zidour",
+                1000,
+              ]}
+              wrapper="span"
+              speed={50}
+              style={{
+                fontSize: "1em",
+                display: "inline-block",
+                color: "#FC4100",
+              }}
+              repeat={Infinity}
+            />
+          </h1>
+          <p className="text-xl md:text-start text-center">
             an Algerian student living in algeirs , I'm 16 years old i have
             about 4 years in the field of web development actually I have some
             hobbies that i enjoy doing it like photography{" "}

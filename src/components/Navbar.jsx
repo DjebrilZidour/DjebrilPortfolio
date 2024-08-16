@@ -16,7 +16,7 @@ const Navbar = () => {
             <h1 className="text-3xl">Djebril Zidour</h1>
           </li>
 
-          <div className="flex justify-between items-center text-black-100  max-sm:flex-col max-sm:hidden ">
+          <div id="1" className=" flex-row text-black-100 md:flex hidden ">
             <li className="px-4 font-semibold text-black cursor-pointer hover:underline text-2xl capitalize">
               Home
             </li>
@@ -34,7 +34,7 @@ const Navbar = () => {
             </li>
           </div>
 
-          <div className="md:hidden flex">
+          <div className="md:hidden flex justify-center items-center ">
             <li className="px-2 font-semibold text-black cursor-pointer hover:underline text-lg capitalize">
               Home
             </li>
