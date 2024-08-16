@@ -4,13 +4,12 @@ import { useNavigate } from "react-router";
 
 import { TypeAnimation } from "react-type-animation";
 const Home = () => {
-  const navigate = useNavigate()
+  const navigate = useNavigate();
   return (
     <>
-      <section className="flex lg:justify-between lg:items-center items-start home px-12  ">
-        
-        <div className="flex flex-col lg:items-start lg:items-start lg:justify-center lg:w-1/2 lg:gap-4 gap-12 ">
-          <h1 className="text-5xl ">
+      <section className="flex md:flex-row flex-col lg:justify-between lg:items-center items-start px-12  py-4">
+        <div className="flex flex-col lg:items-start lg:items-start lg:justify-center md:w-1/2 lg:gap-4 gap-12 p-4">
+          <h1 className="md:text-5xl text-3xl">
             My Name is{" "}
             <TypeAnimation
               sequence={[
@@ -32,7 +31,7 @@ const Home = () => {
               repeat={Infinity}
             />
           </h1>
-          <p className="text-3xl">
+          <p className="text-xl">
             an Algerian student living in algeirs , I'm 16 years old i have
             about 4 years in the field of web development actually I have some
             hobbies that i enjoy doing it like photography{" "}
@@ -42,25 +41,30 @@ const Home = () => {
             and biking well you can see my skills on development by scrolling on
             this portfolio
           </p>
-          <div className="flex justify-center items-center gap-4">
-          <a target="new" href="https://github.com/DjebrilZidour">
-              <div  className="border px-4 py-2 hover:bg-red-500 hover:text-white bg-white rounded-xl text-2xl capitalize uppercase flex justify-center items-center gap-4 cursor-poiter">
-                
+          <div className="flex justify-center items-center gap-4 md:flex-row flex-col">
+            <a target="new" href="https://github.com/DjebrilZidour">
+              <div className="border px-4 py-2 hover:bg-red-500 hover:text-white bg-white rounded-xl text-2xl capitalize uppercase flex justify-center items-center gap-4 cursor-poiter">
                 <p className="cursor-pointer">my Github </p>
                 <img
                   className="w-8 h-8"
                   src="https://cdn-icons-png.flaticon.com/128/1051/1051326.png"
                 />
-              
-               
               </div>
-              </a>
-           
+            </a>
+
             <button className="border px-4 py-2 bg-white hover:bg-red-500 hover:text-white rounded-xl text-2xl capitalize uppercase">
               {" "}
               Hire Me
             </button>
           </div>
+        </div>
+        <div className="flex justify-center items-center md:w-1/2 w-full py-4">
+          {" "}
+          <img
+            className="md:px-12 w-full"
+            src="https://i.ibb.co/9WyBmLY/Design-sans-titre-1.png"
+            alt=""
+          />
         </div>
       </section>
     </>

@@ -10,7 +10,7 @@ const Skill =()=>{
        
         <div className="flex flex-col justify-center items-center lg:items-start gap-4">
         <h1 className="text-5xl">My skills</h1>
-          <p className="w-96 text-2xl">
+          <p className="md:w-96 md:text-2xl w-full">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Id quis magni
             temporibus recusandae dolorum dolore iusto, vitae aperiam, quaerat
             aliquam autem incidunt esse nobis enim voluptate, beatae praesentium
