@@ -31,7 +31,7 @@ const Skill =()=>{
           <div className="flex justify-center items-center gap-8">
           <img className="md:w-12 w-20" src="https://cdn-icons-png.flaticon.com/128/15466/15466163.png" alt="logo" />
             <img className="md:w-12 w-20" src="https://cdn-icons-png.flaticon.com/128/16021/16021236.png" alt="logo" />
-            <img className="md:w-12 w-20" src="https://imgs.search.brave.com/EKsk4xtJu-qcCLu6v_GJEiJbWXakB9PzJp_snmXg4ak/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9jZG4u/d29ybGR2ZWN0b3Js/b2dvLmNvbS9sb2dv/cy90YWlsd2luZC1j/c3MtMi5zdmc.svg" alt="logo" />
+            <img className="md:w-12 w-20" src="https://tailwindcss.com/_next/static/media/tailwindcss-mark.3c5441fc7a190fb1800d4a5c7f07ba4b1345a9c8.svg" alt="logo" />
           </div>
         </div>
         </section>
