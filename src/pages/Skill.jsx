@@ -1,16 +1,13 @@
 const Skill =()=>{
     return(
         <>
-        <div>
+      
        
-        </div>
-
+        <section className="flex  flex-col md:flex-row items-center justify-center md:gap-32 gap-8">
        
-        <section className="flex justify-center flex-col lg:flex-row items-center gap-4 mx-12 my-12 gap-32">
-       
-        <div className="flex flex-col justify-center items-center lg:items-start gap-4">
-        <h1 className="text-5xl">My skills</h1>
-          <p className="md:w-96 md:text-2xl w-full">
+        <div className="flex flex-col justify-center items-center md:items-start gap-4">
+        <h1 className="text-5xl lg:text-start">My skills</h1>
+          <p className="md:w-96 md:text-2xl w-full md:text-start text-center px-16 ">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Id quis magni
             temporibus recusandae dolorum dolore iusto, vitae aperiam, quaerat
             aliquam autem incidunt esse nobis enim voluptate, beatae praesentium

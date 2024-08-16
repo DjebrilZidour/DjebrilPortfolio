@@ -8,7 +8,7 @@ const Home = () => {
   return (
     <>
       <section className="flex md:flex-row flex-col lg:justify-between lg:items-center items-start px-12  py-4">
-        <div className="flex flex-col md:items-start md:items-start md:justify-center md:w-1/2 lg:gap-4 gap-12 p-4">
+        <div className="flex flex-col md:items-start md:items-start md:justify-center md:w-1/2 lg:gap-4 gap-12 md:gap-4 p-4">
           <h1 className=" text-4xl text-center md:hidden">
             My Name is : <br />{" "}
             <TypeAnimation
@@ -31,7 +31,29 @@ const Home = () => {
               repeat={Infinity}
             />
           </h1>
-          <h1 className="md:text-5xl text-3xl hidden md:block">
+          <h1 className=" text-3xl hidden lg:hidden md:block ">
+            My Name is : {" "}
+            <TypeAnimation
+              sequence={[
+                // Same substring at the start will only be typed out once, initially
+                "Djebril Zidour",
+                1000, // wait 1s before replacing "Mice" with "Hamsters"
+                "",
+                1000,
+                "Djebril Zidour",
+                1000,
+              ]}
+              wrapper="span"
+              speed={50}
+              style={{
+                fontSize: "1em",
+                display: "inline-block",
+                color: "#FC4100",
+              }}
+              repeat={Infinity}
+            />
+          </h1>
+          <h1 className="text-6xl hidden lg:block">
             My Name is : {" "}
             <TypeAnimation
               sequence={[
@@ -83,7 +105,7 @@ const Home = () => {
         <div className="flex justify-center items-center md:w-1/2 w-full py-4">
           {" "}
           <img
-            className="md:px-12 w-full"
+            className="md:px-8 lg:px-12 w-full"
             src="https://i.ibb.co/9WyBmLY/Design-sans-titre-1.png"
             alt=""
           />
