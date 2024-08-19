@@ -3,7 +3,7 @@ const Skill =()=>{
         <>
       
        
-        <section className="flex  flex-col md:flex-row items-center justify-center md:gap-32 gap-8 bg-yellow-100 py-12">
+        <section id="skill" className="flex  flex-col md:flex-row items-center justify-center md:gap-32 gap-8 bg-yellow-100 py-12">
        
         <div className="flex flex-col justify-center items-center md:items-start gap-4">
         <h1 className="text-5xl lg:text-start">My skills</h1>
