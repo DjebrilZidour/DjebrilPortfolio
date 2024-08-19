@@ -7,7 +7,7 @@ const Home = () => {
   const navigate = useNavigate();
   return (
     <>
-      <section className="flex md:flex-row flex-col lg:justify-between lg:items-center items-start px-12  py-4">
+      <section id="home" className="flex md:flex-row flex-col lg:justify-between lg:items-center items-start px-12  py-4">
         <div className="flex flex-col md:items-start md:items-start md:justify-center md:w-1/2 lg:gap-4 gap-12 md:gap-4 p-4">
           <h1 className=" text-4xl text-center md:hidden">
             My Name is : <br />{" "}

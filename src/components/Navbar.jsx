@@ -18,7 +18,9 @@ const Navbar = () => {
 
           <div id="1" className=" flex-row text-black-100 md:flex hidden ">
             <li className="px-4 font-semibold text-black cursor-pointer hover:underline text-2xl capitalize">
+            <Link to="home" spy={true} smooth={true} offset={50} duration={500}>
               Home
+              </Link>
             </li>
             <li className="px-4 font-semibold text-black cursor-pointer hover:underline text-2xl capitalize">
               skill
