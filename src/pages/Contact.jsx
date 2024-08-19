@@ -1,6 +1,6 @@
 const Contact = () => {
   return (
-    <section className="flex justify-center items-center  flex-col gap-16 border-2 m-4">
+    <section id="contact" className="flex justify-center items-center  flex-col gap-16 border-2 m-4">
       <div>
         <h1>you can contact me by E-mail or phone number for pro contact </h1>
         <h2>

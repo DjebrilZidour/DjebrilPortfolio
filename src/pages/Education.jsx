@@ -1,7 +1,7 @@
 const Education = () => {
   return (
     <>
-      <section className="flex justify-center items-center gap-4 flex-col mx-24">
+      <section id="education" className="flex justify-center items-center gap-4 flex-col mx-24">
         <h1 className="text-3xl">education</h1>
 
         <div className="flex justify-center items-center gap-8 rounded-3xl border-2 border-black">
