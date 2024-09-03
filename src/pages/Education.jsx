@@ -1,76 +1,25 @@
 const Education = () => {
   return (
     <>
-      <section id="education" className="flex justify-center items-center gap-4 flex-col mx-24">
-        <h1 className="text-3xl">education</h1>
+      <section id="education" className="flex justify-center items-center gap-4 flex-col mx-24 my-12">
+        <div className="flex justify-center items-center gap-8">
 
-        <div className="flex justify-center items-center gap-8 rounded-3xl border-2 border-black">
-          <div>
-            <div className="w-full bg-red-300 flex justify-center items-center rounded-3xl py-4">
-              <h1 className="text-4xl">High School</h1>
-            </div>
+        <img className="w-16" src="https://cdn-icons-png.flaticon.com/128/2231/2231453.png" alt="" />
+        <h1 className="text-5xl capitalize">education</h1>
+        <img className="w-16" src="https://cdn-icons-png.flaticon.com/128/2231/2231453.png" alt="" />
 
-            <div className="flex justify-center items-center gap-8  py-4 px-8">
-              <p className="text-xl">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis
-                ad tenetur quisquam porro adipisci hic harum, quam distinctio
-                enim voluptatem minima doloribus praesentium quasi, culpa
-                suscipit minus ex ullam iure. Itaque, obcaecati vel fugiat
-                deserunt provident error impedit ipsa atque harum earum eius
-                nobis quas quia fugit suscipit, voluptatem, non doloribus
-              </p>
-              <img
-                className="rounded-3xl"
-                src="https://lh5.googleusercontent.com/p/AF1QipNjw1uVRhT0wBVp95edtgeYloI-aNK3JdyLn_cs=w427-h240-k-no"
-                alt="schoolPicture"
-              />
-            </div>
-          </div>
         </div>
-        <div className="flex justify-center items-center gap-8 rounded-3xl border-2 border-black">
-          <div>
-            <div className="w-full bg-red-300 flex justify-center items-center rounded-3xl py-4">
-              <h1 className="text-4xl">High School</h1>
-            </div>
 
-            <div className="flex justify-center items-center gap-8  py-4 px-8">
-              <p className="text-xl">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis
-                ad tenetur quisquam porro adipisci hic harum, quam distinctio
-                enim voluptatem minima doloribus praesentium quasi, culpa
-                suscipit minus ex ullam iure. Itaque, obcaecati vel fugiat
-                deserunt provident error impedit ipsa atque harum earum eius
-                nobis quas quia fugit suscipit, voluptatem, non doloribus
-              </p>
-              <img
-                className="rounded-3xl"
-                src="https://lh5.googleusercontent.com/p/AF1QipNjw1uVRhT0wBVp95edtgeYloI-aNK3JdyLn_cs=w427-h240-k-no"
-                alt="schoolPicture"
-              />
-            </div>
+        <div className="flex justify-center items-center md:flex-row flex-col w-full gap-8 my-4">
+          <div className="h-48 flex justify-center items-center flex-col w-full md:w-1/3 border-2 border-black rounded-lg bg-yellow-100">
+            <h1 className="text-2xl text-center py-4">Ibn Badis Middle school</h1>
+            <img className="rounded-xl w-24 p-4" src="https://cdn-icons-png.flaticon.com/128/1799/1799906.png" />
+          
           </div>
-        </div>
-        <div className="flex justify-center items-center gap-8 rounded-3xl border-2 border-black">
-          <div>
-            <div className="w-full bg-red-300 flex justify-center items-center rounded-3xl py-4">
-              <h1 className="text-4xl">High School</h1>
-            </div>
-
-            <div className="flex justify-center items-center gap-8  py-4 px-8">
-              <p className="text-xl">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis
-                ad tenetur quisquam porro adipisci hic harum, quam distinctio
-                enim voluptatem minima doloribus praesentium quasi, culpa
-                suscipit minus ex ullam iure. Itaque, obcaecati vel fugiat
-                deserunt provident error impedit ipsa atque harum earum eius
-                nobis quas quia fugit suscipit, voluptatem, non doloribus
-              </p>
-              <img
-                className="rounded-3xl"
-                src="https://lh5.googleusercontent.com/p/AF1QipNjw1uVRhT0wBVp95edtgeYloI-aNK3JdyLn_cs=w427-h240-k-no"
-                alt="schoolPicture"
-              />
-            </div>
+          <div className="h-48 flex justify-center items-center flex-col w-full md:w-1/3 border-2 border-black rounded-lg bg-yellow-100">
+            <h1 className="text-2xl text-center py-4">Mohamed Bjaoui <br /> High school</h1>
+           <img className="rounded-xl w-24 p-4" src="https://cdn-icons-png.flaticon.com/128/569/569025.png" alt=""/>
+          
           </div>
         </div>
       </section>
