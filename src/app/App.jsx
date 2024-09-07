@@ -5,7 +5,7 @@ import Experiences from "../pages/Experiences";
 import Contact from "../pages/Contact";
 import Skill from "../pages/Skill";
 import Education from "../pages/Education";
-import Foter from "../components/Foter";
+
 
 function App() {
   const [count, setCount] = useState(0);
@@ -18,7 +18,7 @@ function App() {
       <Education />
       <Experiences/>
       <Contact />
-      <Foter />
+
     </>
   );
 }
