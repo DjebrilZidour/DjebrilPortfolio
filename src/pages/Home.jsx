@@ -7,7 +7,10 @@ const Home = () => {
   const navigate = useNavigate();
   return (
     <>
-      <section id="home" className="flex md:flex-row flex-col lg:justify-between lg:items-center items-start px-12  py-4">
+      <section
+        id="home"
+        className="flex md:flex-row flex-col lg:justify-between lg:items-center items-start px-12  py-4"
+      >
         <div className="flex flex-col md:items-start md:items-start md:justify-center md:w-1/2 lg:gap-4 gap-12 md:gap-4 p-4">
           <h1 className=" text-4xl text-center md:hidden">
             My Name is : <br />{" "}
@@ -32,7 +35,7 @@ const Home = () => {
             />
           </h1>
           <h1 className=" text-3xl hidden lg:hidden md:block ">
-            My Name is : {" "}
+            My Name is :{" "}
             <TypeAnimation
               sequence={[
                 // Same substring at the start will only be typed out once, initially
@@ -54,7 +57,7 @@ const Home = () => {
             />
           </h1>
           <h1 className="text-6xl hidden lg:block">
-            My Name is : {" "}
+            My Name is :{" "}
             <TypeAnimation
               sequence={[
                 // Same substring at the start will only be typed out once, initially
@@ -76,14 +79,13 @@ const Home = () => {
             />
           </h1>
           <p className="text-xl md:text-start text-center">
-            an Algerian student living in algeirs , I'm 16 years old i have
-            about 4 years in the field of web development actually I have some
-            hobbies that i enjoy doing it like photography{" "}
-            <span className="text-red-600 cursor-pointer">
-              check my pictures
-            </span>{" "}
-            and biking well you can see my skills on development by scrolling on
-            this portfolio
+            I'm a passionate front-end web developer based in Algiers, Algeria,
+            with around 4 years of experience in building dynamic, responsive
+            websites and applications. I love bringing ideas to life through
+            clean, efficient code and a keen eye for design. Beyond coding, I
+            enjoy capturing moments through photography and exploring the world
+            on my bike. Scroll through my portfolio to check out my work and the
+            skills I bring to the table.
           </p>
           <div className="flex justify-center items-center gap-4 md:flex-row flex-col">
             <a target="new" href="https://github.com/DjebrilZidour">
