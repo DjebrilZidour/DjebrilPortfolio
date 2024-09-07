@@ -9,9 +9,9 @@ const Home = () => {
     <>
       <section
         id="home"
-        className="flex md:flex-row flex-col lg:justify-between lg:items-center items-start px-12  py-4"
+        className="flex md:flex-row flex-col lg:justify-between lg:items-center items-start md:px-12 px-6 py-4"
       >
-        <div className="flex flex-col md:items-start md:items-start md:justify-center md:w-1/2 lg:gap-4 gap-12 md:gap-4 p-4">
+        <div className="flex flex-col md:items-start md:items-start md:justify-center md:w-1/2 lg:gap-4 gap-12 md:gap-4 md:p-4 p-2">
           <h1 className=" text-4xl text-center md:hidden">
             My Name is : <br />{" "}
             <TypeAnimation
