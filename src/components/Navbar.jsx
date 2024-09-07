@@ -47,7 +47,7 @@ const Navbar = () => {
                 offset={50}
                 duration={500}
               >
-                experiences
+                Diplomes
               </Link>
             </li>
 
