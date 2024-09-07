@@ -78,7 +78,7 @@ const Home = () => {
               repeat={Infinity}
             />
           </h1>
-          <p className="text-xl md:text-start text-center">
+          <p className="text-2xl md:text-start text-center">
             I'm a passionate front-end web developer based in Algiers, Algeria,
             with around 4 years of experience in building dynamic, responsive
             websites and applications. I love bringing ideas to life through
