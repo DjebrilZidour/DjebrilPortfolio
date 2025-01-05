@@ -54,12 +54,12 @@ const Experiences = () => {
       </div>
     </section>
     <section className="flex flex-col justify-center items-center my-12">
-      <h1 className="text-6xl py-8">Currently Working On</h1>
-      <h1 className="text-5xl text-green-500">DJEBRIL ACADEMY</h1>
+      <h1 className="text-6xl py-8 underline">Currently Working On</h1>
+      <h1 className="text-5xl text-green-500 ">DJEBRIL ACADEMY</h1>
       <div className="flex flex-col  justify-center items-center ">
        <h2> Check it out :</h2>
        <div><img className="w-48 border-2 border-black rounded-3xl " src="https://djebrilacademy.com/assets/logo-8bfc97e1.png" alt="" /></div>
-       <button className="border px-4 py-2 bg-white hover:bg-green-500 hover:text-white rounded-xl text-2xl capitalize uppercase">OPEN THE PLATFORM</button>
+       <button className=" mt-12 border px-4 py-2 bg-white hover:bg-green-500 hover:text-white rounded-xl text-2xl capitalize uppercase"> <a href="https://djebrilacademy.com/">OPEN THE PLATFORM</a> </button>
       </div>
     </section>
     </>
