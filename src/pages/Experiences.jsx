@@ -54,7 +54,7 @@ const Experiences = () => {
       </div>
     </section>
     <section className="flex flex-col justify-center items-center my-12">
-      <h1 className="text-6xl py-8 underline">Currently Working On</h1>
+      <h1 className="text-6xl py-8 underline text-center">Currently Working On</h1>
       <h1 className="text-5xl text-green-500 ">DJEBRIL ACADEMY</h1>
       <div className="flex flex-col  justify-center items-center ">
        <h2> Check it out :</h2>
