@@ -99,10 +99,10 @@ const Home = () => {
             </a>
 
             <button onClick={()=>{
-              navigate("mailto:djebril.zidour.pro@gmail.com")
+             
             }} className="border px-4 py-2 bg-white hover:bg-red-500 hover:text-white rounded-xl text-2xl capitalize uppercase">
               {" "}
-              Hire Me
+             <a href="mailto:djebril.zidour.pro@gmail.com">Email Me</a>
             </button>
           </div>
         </div>
