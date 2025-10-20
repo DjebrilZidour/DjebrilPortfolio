@@ -27,11 +27,11 @@ const Experiences = () => {
             <p className="uppercase"> by American institute</p>
           </div>
         </div>
-        <div className="flex justify-center items-center flex-col md:flex-row gap-4">
+        <div className="flex justify-center items-center flex-col md:flex-row gap-4 w-full">
           <div className="flex flex-col justify-center items-center md:w-1/2  gap-4 "> //! dip 3
             <img
               className="w-3/4 border-2 border-black "
-              src=""
+              src="https://i.ibb.co/GDfCphT/Screen-Shot-2025-09-10-at-12-00-27-AM.png"
               alt=""
             />
             <h1 className="capitalize md:text-3xl text-2xl">
@@ -42,11 +42,11 @@ const Experiences = () => {
           <div className="flex flex-col justify-center items-center md:w-1/2  gap-4 ">//! dip 4
             <img
               className="w-3/4 border-2 border-black "
-              src=""
+              src="https://i.ibb.co/dwGWbR7X/robotic-originale-rotated.jpg"
               alt=""
             />
             <h1 className="capitalize md:text-3xl text-2xl">
-              robotic and arduino at Techmology
+              robotic and arduino 
             </h1>
             <p className="uppercase">by Techmology</p>
           </div>
@@ -55,13 +55,13 @@ const Experiences = () => {
           <div className="flex flex-col justify-center items-center md:w-1/2  gap-4 "> //! dip 5
             <img
               className="w-3/4 border-2 border-black "
-              src="https://i.ibb.co/4ShX8Qq/udacity-the-first-certificate.jpg"
+              src="https://i.ibb.co/sd8x6Kmh/into-marketing-digitle-rotated.jpg"
               alt=""
             />
             <h1 className="capitalize md:text-3xl text-2xl">
-              Full stack web development
+             introduction to marketing digital
             </h1>
-            <p className="uppercase">By Udacity</p>
+            <p className="uppercase">By Code 213</p>
           </div>
           <div className="flex flex-col justify-center items-center md:w-1/2  gap-4 "> //! dip 6
             <img
@@ -78,7 +78,7 @@ const Experiences = () => {
           <div className="flex flex-col justify-center items-center md:w-1/2  gap-4 "> //! dip 7
             <img
               className="w-3/4 border-2 border-black "
-              src="https://i.ibb.co/n1g1WGD/djebril-zidour-Facebook-Ads-Certificat-de-reussite-Etudz-Academy-copy.jpg"
+              src="https://i.ibb.co/KcMMm9Hr/aikifdou-ceinture-ble-traduction-rotated.jpg"
               alt=""
             />
             <h1 className="capitalize md:text-3xl text-2xl">
@@ -89,13 +89,13 @@ const Experiences = () => {
           <div className="flex flex-col justify-center items-center md:w-1/2  gap-4 "> //! dip 8
             <img
               className="w-3/4 border-2 border-black "
-              src="https://i.ibb.co/n1g1WGD/djebril-zidour-Facebook-Ads-Certificat-de-reussite-Etudz-Academy-copy.jpg"
+              src="https://i.ibb.co/Y7W4GcSH/attestation-Galop-4.jpg"
               alt=""
             />
             <h1 className="capitalize md:text-3xl text-2xl">
-              robotic and arduino at Techmology
+             Galop 4 
             </h1>
-            <p className="uppercase">by Techmology</p>
+            <p className="uppercase">by FFE</p>
           </div>
         </div>
       </div>
