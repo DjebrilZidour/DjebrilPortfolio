@@ -31,7 +31,7 @@ const Education = () => {
           </div>
           <div className="h-48 flex justify-center items-center flex-col w-full md:w-1/3 border-2 border-black rounded-lg bg-yellow-100">
             <h1 className="text-2xl text-center py-4">
-              Mohamed Bjaoui <br /> High school
+              Mohamed Lbdjaoui <br /> High school
             </h1>
             <img
               className="rounded-xl w-24 p-4"
@@ -39,6 +39,22 @@ const Education = () => {
               alt=""
             />
           </div>
+        </div>
+      </section>
+      <section className="flex justify-between align-center  md:mx-32 mx-4 my-16 flex-col">
+        <h1 className=" text-center text-4xl mb-5 underline ">  School Projects </h1>
+        <div className="flex justify-center align-center flex-col items-center gap-8 w-full">
+          <div className="bg-yellow-100 md:w-1/2 w-full aspect-video rounded-2xl overflow-hidden shadow-xl  p-3  ">
+            <iframe
+              src="https://fast.wistia.net/embed/iframe/wola8acg63"
+              title="Pollution Awareness Video"
+              allow="autoplay; fullscreen"
+              allowTransparency="true"
+              frameBorder="0"
+              className="w-full h-full"
+            ></iframe>
+          </div>
+          <h1 className="text-4xl text-center w-full"> " This project was my participation in a national contest on pollution, organized for World Environment Day on June 5, 2023."</h1>
         </div>
       </section>
     </>
