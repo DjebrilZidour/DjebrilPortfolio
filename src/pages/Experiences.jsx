@@ -82,9 +82,9 @@ const Experiences = () => {
               alt=""
             />
             <h1 className="capitalize md:text-3xl text-2xl">
-              Complete Facebook Ads Course
+              Aikido attestaion blue belt
             </h1>
-            <p className="uppercase">by izi road</p>
+            <p className="uppercase">by n.r.b.b.e</p>
           </div>
           <div className="flex flex-col justify-center items-center md:w-1/2  gap-4 "> //! dip 8
             <img
