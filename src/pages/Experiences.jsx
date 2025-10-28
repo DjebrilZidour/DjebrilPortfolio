@@ -3,7 +3,7 @@ const Experiences = () => {
     <>
     <section className="bg-yellow-100 py-8" id="experience">
       <h1 className="md:text-5xl text-center my-8">Diplomes</h1>
-      <div className="flex justify-center items-center flex-col gap-8 md:mx-12">
+      <div className="flex justify-center items-center flex-col-reverse gap-8 md:mx-12">
         <div className="flex justify-center items-center flex-col md:flex-row gap-4">
           <div className="flex flex-col justify-center items-center md:w-1/2  gap-4 ">
             <img
@@ -64,20 +64,6 @@ const Experiences = () => {
             </h1>
             <p className="uppercase">by Gomy Code</p>
           </div>
-        
-          <div className="flex flex-col justify-center items-center md:w-1/2  gap-4 "> 
-            <img
-              className="w-3/4 border-2 border-black "
-              src="https://i.ibb.co/GDfCphT/Screen-Shot-2025-09-10-at-12-00-27-AM.png"
-              alt=""
-            />
-            <h1 className="capitalize md:text-3xl text-2xl">
-              Complete Facebook Ads Course 
-            </h1>
-            <p className="uppercase">by izi road</p>
-          </div>
-        </div>
-        <div className="flex justify-center items-center flex-col md:flex-row gap-4">
            <div className="flex flex-col justify-center items-center md:w-1/2  gap-4 "> 
             <img
               className="w-3/4 border-2 border-black "
@@ -88,6 +74,20 @@ const Experiences = () => {
              introduction to marketing digital
             </h1>
             <p className="uppercase">By Code 213</p>
+          </div>
+          
+        </div>
+        <div className="flex justify-center items-center flex-col md:flex-row gap-4">
+          <div className="flex flex-col justify-center items-center md:w-1/2  gap-4 "> 
+            <img
+              className="w-3/4 border-2 border-black "
+              src="https://i.ibb.co/GDfCphT/Screen-Shot-2025-09-10-at-12-00-27-AM.png"
+              alt=""
+            />
+            <h1 className="capitalize md:text-3xl text-2xl">
+              Complete Facebook Ads Course 
+            </h1>
+            <p className="uppercase">by izi road</p>
           </div>
           <div className="flex flex-col justify-center items-center md:w-1/2  gap-4 "> 
             <img
