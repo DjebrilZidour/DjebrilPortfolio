@@ -16,7 +16,20 @@ const Experiences = () => {
             </h1>
             <p className="uppercase">By Udacity</p>
           </div>
-          <div className="flex flex-col justify-center items-center md:w-1/2  gap-4 ">
+          <div className="flex flex-col justify-center items-center md:w-1/2  gap-4 "> 
+            <img
+              className="w-3/4 border-2 border-black "
+              src="https://i.ibb.co/KcMMm9Hr/aikifdou-ceinture-ble-traduction-rotated.jpg"
+              alt=""
+            />
+            <h1 className="capitalize md:text-3xl text-2xl">
+              Aikido attestaion blue belt
+            </h1>
+            <p className="uppercase">by n.r.b.b.e</p>
+          </div>
+        </div>
+        <div className="flex justify-center items-center flex-col md:flex-row gap-4 ">
+            <div className="flex flex-col justify-center items-center md:w-1/2  gap-4 ">
             <img
               className="w-3/4 border-2 border-black "
               src="https://i.ibb.co/17gm4tc/Djebril-Zidour-certificate-C1-1.jpg"
@@ -26,20 +39,8 @@ const Experiences = () => {
             </h1>
             <p className="uppercase"> by American institute</p>
           </div>
-        </div>
-        <div className="flex justify-center items-center flex-col md:flex-row gap-4 w-full">
-          <div className="flex flex-col justify-center items-center md:w-1/2  gap-4 "> //! dip 3
-            <img
-              className="w-3/4 border-2 border-black "
-              src="https://i.ibb.co/GDfCphT/Screen-Shot-2025-09-10-at-12-00-27-AM.png"
-              alt=""
-            />
-            <h1 className="capitalize md:text-3xl text-2xl">
-              Complete Facebook Ads Course 
-            </h1>
-            <p className="uppercase">by izi road</p>
-          </div>
-          <div className="flex flex-col justify-center items-center md:w-1/2  gap-4 ">//! dip 4
+          
+          <div className="flex flex-col justify-center items-center md:w-1/2  gap-4 ">
             <img
               className="w-3/4 border-2 border-black "
               src="https://i.ibb.co/dwGWbR7X/robotic-originale-rotated.jpg"
@@ -52,7 +53,32 @@ const Experiences = () => {
           </div>
         </div>
          <div className="flex justify-center items-center flex-col md:flex-row gap-4">
-          <div className="flex flex-col justify-center items-center md:w-1/2  gap-4 "> //! dip 5
+          <div className="flex flex-col justify-center items-center md:w-1/2  gap-4 "> 
+            <img
+              className="w-3/4 border-2 border-black "
+              src="https://i.ibb.co/GQ2nbVX1/Djebril-zidour.jpg"
+              alt=""
+            />
+            <h1 className="capitalize md:text-3xl text-2xl">
+             Full-Stack JavaScript Program
+            </h1>
+            <p className="uppercase">by Gomy Code</p>
+          </div>
+        
+          <div className="flex flex-col justify-center items-center md:w-1/2  gap-4 "> 
+            <img
+              className="w-3/4 border-2 border-black "
+              src="https://i.ibb.co/GDfCphT/Screen-Shot-2025-09-10-at-12-00-27-AM.png"
+              alt=""
+            />
+            <h1 className="capitalize md:text-3xl text-2xl">
+              Complete Facebook Ads Course 
+            </h1>
+            <p className="uppercase">by izi road</p>
+          </div>
+        </div>
+        <div className="flex justify-center items-center flex-col md:flex-row gap-4">
+           <div className="flex flex-col justify-center items-center md:w-1/2  gap-4 "> 
             <img
               className="w-3/4 border-2 border-black "
               src="https://i.ibb.co/sd8x6Kmh/into-marketing-digitle-rotated.jpg"
@@ -63,30 +89,7 @@ const Experiences = () => {
             </h1>
             <p className="uppercase">By Code 213</p>
           </div>
-          <div className="flex flex-col justify-center items-center md:w-1/2  gap-4 "> //! dip 6
-            <img
-              className="w-3/4 border-2 border-black "
-              src="https://i.ibb.co/17gm4tc/Djebril-Zidour-certificate-C1-1.jpg"
-            />
-            <h1 className="capitalize md:text-3xl text-2xl">
-              English C1.1 level
-            </h1>
-            <p className="uppercase"> by American institute</p>
-          </div>
-        </div>
-        <div className="flex justify-center items-center flex-col md:flex-row gap-4">
-          <div className="flex flex-col justify-center items-center md:w-1/2  gap-4 "> //! dip 7
-            <img
-              className="w-3/4 border-2 border-black "
-              src="https://i.ibb.co/KcMMm9Hr/aikifdou-ceinture-ble-traduction-rotated.jpg"
-              alt=""
-            />
-            <h1 className="capitalize md:text-3xl text-2xl">
-              Aikido attestaion blue belt
-            </h1>
-            <p className="uppercase">by n.r.b.b.e</p>
-          </div>
-          <div className="flex flex-col justify-center items-center md:w-1/2  gap-4 "> //! dip 8
+          <div className="flex flex-col justify-center items-center md:w-1/2  gap-4 "> 
             <img
               className="w-3/4 border-2 border-black "
               src="https://i.ibb.co/Y7W4GcSH/attestation-Galop-4.jpg"
