@@ -105,6 +105,16 @@ const Home = () => {
              <a href="mailto:djebril.zidour.pro@gmail.com">Email Me</a>
             </button>
           </div>
+             <div className="flex justify-center iems-center gap-4 py-4 px-2 border-2 rounded-3xl hover:bg-green-100">
+          <img className="w-14 rounded-full border-2 " src="https://djebrilacademy.com/assets/logo-8bfc97e1.png" alt="" />
+          <div className="flex justify-center items-center flex-col cursor-pointer">
+          <a target="new" href="https://djebrilacademy.com/"><h1> Check my platform djebril academy  </h1></a>
+         
+           
+          </div>
+
+
+        </div>
         </div>
         <div className="flex justify-center items-center md:w-1/2 w-full py-4">
           {" "}
@@ -114,6 +124,7 @@ const Home = () => {
             alt=""
           />
         </div>
+     
       </section>
     </>
   );
