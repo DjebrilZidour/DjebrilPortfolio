@@ -111,6 +111,7 @@ const Experiences = () => {
        <div><img className="w-48 border-2 border-black rounded-3xl " src="https://djebrilacademy.com/assets/logo-8bfc97e1.png" alt="" /></div>
        <button className=" mt-12 border px-4 py-2 bg-green-100  hover:bg-green-500 hover:text-white rounded-xl text-2xl capitalize uppercase"> <a href="https://djebrilacademy.com/">OPEN THE PLATFORM</a> </button>
       </div>
+      
     </section>
      
    
