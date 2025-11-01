@@ -6,17 +6,9 @@ const Education = () => {
         className="flex justify-center items-center gap-4 flex-col mx-24 my-12"
       >
         <div className="flex justify-center items-center gap-8">
-          <img
-            className="w-16"
-            src="https://cdn-icons-png.flaticon.com/128/2231/2231453.png"
-            alt=""
-          />
-          <h1 className="text-5xl capitalize">education</h1>
-          <img
-            className="w-16"
-            src="https://cdn-icons-png.flaticon.com/128/2231/2231453.png"
-            alt=""
-          />
+         
+          <h1 className="text-5xl  underline capitalize">education</h1>
+         
         </div>
 
         <div className="flex justify-center items-center md:flex-row flex-col w-full gap-8 my-4">

@@ -1,7 +1,7 @@
 const Contact = () => {
   return (
     <section id="contact" className="flex justify-center items-center  flex-col gap-8  m-4">
-      <h1 className="capitalize text-5xl">Contact</h1>
+      <h1 className="capitalize text-6xl  underline">Contact</h1>
       <h1 className="text-3xl capitalize text-center">you can contact me by E-mail</h1>
       <div className="flex justify-center items-center flex-col  gap-4 w-full">
        
