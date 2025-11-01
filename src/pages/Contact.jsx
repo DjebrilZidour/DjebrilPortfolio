@@ -12,7 +12,7 @@ const Contact = () => {
       </div>
       
 
-      <h1 className="capitalize text-xl ">can't wait to work with you</h1>
+      {/* <h1 className="capitalize text-xl ">can't wait to work with you</h1> */}
     </section>
   );
 };
