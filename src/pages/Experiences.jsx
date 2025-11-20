@@ -103,6 +103,84 @@ const Experiences = () => {
         </div>
       </div>
     </section>
+    <section className="flex justify-between align-center  md:mx-32 mx-4 my-16 flex-col">
+        <h1 className=" text-center text-4xl mb-5 underline ">  School Projects </h1>
+        <div className="flex justify-center align-center flex-col items-center gap-8 w-full">
+          <div className="bg-yellow-100 md:w-1/2 w-full aspect-video rounded-2xl overflow-hidden shadow-xl  p-3  ">
+            <iframe
+              src="https://fast.wistia.net/embed/iframe/wola8acg63"
+              title="Pollution Awareness Video"
+              allow="autoplay; fullscreen"
+              allowTransparency="true"
+              frameBorder="0"
+              className="w-full h-full"
+            ></iframe>
+          </div>
+          <h1 className="text-4xl text-center w-full"> " This project was my participation in a national contest on pollution, organized for World Environment Day on June 5, 2023."</h1>
+           <div className="bg-yellow-100 md:w-1/2 w-full aspect-video rounded-2xl overflow-hidden shadow-xl  p-3  ">
+            <iframe
+              src="https://fast.wistia.net/embed/iframe/0bdha7280t"
+              title="future job english homework"
+              allow="autoplay; fullscreen"
+              allowTransparency="true"
+              frameBorder="0"
+              className="w-full h-full"
+            ></iframe>
+          </div>
+          <h1 className="text-4xl text-center w-full"> " This project was a middle school homework "</h1>
+           
+        </div>
+      </section>
+      <section className="flex justify-between align-center  md:mx-32 mx-4 my-16 flex-col">
+        <h1 className=" text-center text-4xl mb-5 underline capitalize ">  Courses Projects + random videos by me </h1>
+        <div className="flex justify-center align-center flex-col items-center gap-8 w-full">
+          <div className="bg-yellow-100 md:w-1/2 w-full aspect-video rounded-2xl overflow-hidden shadow-xl  p-3  ">
+            <iframe
+              src="https://fast.wistia.net/embed/iframe/jw3cregqri"
+              title="Gomy code final video"
+              allow="autoplay; fullscreen"
+              allowTransparency="true"
+              frameBorder="0"
+              className="w-full h-full"
+            ></iframe>
+          </div>
+          <h1 className="text-4xl text-center w-full"> " This project was part of the final exam on gomy code exam to explain the ........."</h1>
+           <div className="bg-yellow-100 md:w-1/2 w-full aspect-video rounded-2xl overflow-hidden shadow-xl  p-3  ">
+            <iframe
+              src="https://fast.wistia.net/embed/iframe/f60qozgezu"
+              title="americain institute test"
+              allow="autoplay; fullscreen"
+              allowTransparency="true"
+              frameBorder="0"
+              className="w-full h-full"
+            ></iframe>
+          </div>
+          <h1 className="text-4xl text-center w-full"> " This project was part of the final test at american insititute to pass the C 2.1 test "</h1>
+            <div className="bg-yellow-100 md:w-1/2 w-full aspect-video rounded-2xl overflow-hidden shadow-xl  p-3  ">
+            <iframe
+              src="https://fast.wistia.net/embed/iframe/htsmoefsyi"
+              title="time lapse"
+              allow="autoplay; fullscreen"
+              allowTransparency="true"
+              frameBorder="0"
+              className="w-full h-full"
+            ></iframe>
+          </div>
+          <h1 className="text-4xl text-center w-full"> " This was my shot for the sunset in biskra on 2022 "</h1>
+        
+                    <img className="rounded-3xl"  src="https://i.ibb.co/Kz7rtWRb/IMAGE-2025-11-01-01-00-16.jpg" alt="" />
+            
+         
+          <h1 className="text-4xl text-center w-full"> " behind the scene "</h1>
+           <div className="grid grid-cols-2 gap-4 gap-4">
+            <img className="rounded-3xl w-96" src="https://i.ibb.co/NgxVZW8L/1.png" alt="" />
+            <img className="rounded-3xl w-96" src="https://i.ibb.co/rRsWfvqP/2.png" alt="" />
+            <img className="rounded-3xl w-96" src="https://i.ibb.co/LzR2gY78/3.png" alt="" />
+            <img className="rounded-3xl w-96" src="https://i.ibb.co/JR5vYgTH/5.png" alt="" />
+           </div>
+           <h1 className="text-4xl text-center w-full"> " some pics by me and for me on my visit to french on 2023.. "</h1>
+        </div>
+      </section>
     <section className="flex flex-col justify-center items-center my-12">
       <h1 className="text-6xl py-8 underline text-center">Currently Working On</h1>
       <h1 className="text-5xl text-green-500 ">DJEBRIL ACADEMY</h1>

@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client'
 import App from './app/App'
 import Blog from './pages/Blog'
 import { createBrowserRouter, RouterProvider, Navigate } from "react-router-dom";
+import Pictures from './pages/pictures';
 
 const router = createBrowserRouter([
   {
@@ -16,6 +17,10 @@ const router = createBrowserRouter([
   {
     path: "/github",
     element: <Navigate to="https://github.com/DjebrilZidour" />  // ✅ Proper redirect
+  },
+  {
+    path: "/pictures",
+    element: <Pictures />,  // ✅ Proper redirect
   }
 ])
 
