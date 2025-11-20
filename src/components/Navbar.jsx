@@ -1,6 +1,8 @@
+import { useNavigate } from "react-router-dom";
 import { Link } from "react-scroll";
 
 const Navbar = () => {
+  const navigate = useNavigate()
   return (
     <>
       <nav
@@ -24,6 +26,9 @@ const Navbar = () => {
                 smooth={true}
                 offset={50}
                 duration={500}
+                onClick={()=>{
+                  navigate("/")
+                }}
               >
                 Home
               </Link>
@@ -35,6 +40,9 @@ const Navbar = () => {
                 smooth={true}
                 offset={50}
                 duration={500}
+                 onClick={()=>{
+                  navigate("/")
+                }}
               >
                 skill
               </Link>
@@ -46,6 +54,9 @@ const Navbar = () => {
                 smooth={true}
                 offset={50}
                 duration={500}
+                 onClick={()=>{
+                  navigate("/")
+                }}
               >
                 Diplomes
               </Link>
@@ -58,6 +69,9 @@ const Navbar = () => {
                 smooth={true}
                 offset={50}
                 duration={500}
+                 onClick={()=>{
+                  navigate("/")
+                }}
               >
                 contact
               </Link>
@@ -71,6 +85,9 @@ const Navbar = () => {
                 smooth={true}
                 offset={50}
                 duration={500}
+                 onClick={()=>{
+                  navigate("/")
+                }}
               >
                 Home
               </Link>
@@ -82,6 +99,9 @@ const Navbar = () => {
                 smooth={true}
                 offset={50}
                 duration={500}
+                 onClick={()=>{
+                  navigate("/")
+                }}
               >
                 skill
               </Link>
@@ -93,6 +113,9 @@ const Navbar = () => {
                 smooth={true}
                 offset={50}
                 duration={500}
+                 onClick={()=>{
+                  navigate("/")
+                }}
               >
                 Diplomes
               </Link>
@@ -105,6 +128,9 @@ const Navbar = () => {
                 smooth={true}
                 offset={50}
                 duration={500}
+                 onClick={()=>{
+                  navigate("/")
+                }}
               >
                 contact
               </Link>

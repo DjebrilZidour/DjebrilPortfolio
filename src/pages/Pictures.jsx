@@ -1,4 +1,5 @@
 import React from "react";
+import Navbar from "../components/Navbar";
 const Pictures = () => {
     const images1 = [
     // Add your image links here
@@ -11,13 +12,23 @@ const Pictures = () => {
   ];
   const images2 = [
     // Add your image links here
-    "https://res.cloudinary.com/dru6am4ab/image/upload/v1763674294/IMAGE_2025-11-20_22_31_27_gg5zy9.jpg",
-    "https://res.cloudinary.com/dru6am4ab/image/upload/v1763674332/IMAGE_2025-11-20_22_32_05_kirhbf.jpg",
-    "https://res.cloudinary.com/dru6am4ab/image/upload/v1763674806/IMAGE_2025-11-20_22_40_00_nsxue7.jpg",
-    "https://res.cloudinary.com/dru6am4ab/image/upload/v1763674873/IMAGE_2025-11-20_22_41_06_uickom.jpg",
-    "https://res.cloudinary.com/dru6am4ab/image/upload/v1763674889/IMAGE_2025-11-20_22_41_22_rleqvq.jpg",
+    "https://res.cloudinary.com/dru6am4ab/image/upload/v1763674316/IMAGE_2025-11-20_22_31_48_mdvini.jpg",
+    "https://res.cloudinary.com/dru6am4ab/image/upload/v1763673720/IMAGE_2025-11-20_22_21_50_hajuab.jpg",
+    "https://res.cloudinary.com/dru6am4ab/image/upload/v1763675461/IMAGE_2025-11-20_22_50_54_b9prri.jpg",
+    "https://res.cloudinary.com/dru6am4ab/image/upload/v1763674517/IMAGE_2025-11-20_22_35_08_zryx5e.jpg",
+    "https://res.cloudinary.com/dru6am4ab/image/upload/v1763674518/IMAGE_2025-11-20_22_35_10_dnzdsg.jpg",
+    "https://res.cloudinary.com/dru6am4ab/image/upload/v1763674511/IMAGE_2025-11-20_22_35_03_xvq08e.jpg",
+  ];
+   const images3 = [
+    // Add your image links here
+   "https://res.cloudinary.com/dru6am4ab/image/upload/v1763675954/IMAGE_2025-11-20_22_59_08_mtqr4t.jpg",
+   "https://res.cloudinary.com/dru6am4ab/image/upload/v1763675906/IMAGE_2025-11-20_22_58_18_ye5po1.jpg",
+   "",
+
   ];
    return (
+    <>
+    <Navbar />
     <div className="w-full min-h-screen px-6 py-10 bg-white">
       <h1 className="text-3xl font-bold mb-8 text-center">My Gallery</h1>
 
@@ -51,7 +62,25 @@ const Pictures = () => {
           </div>
         ))}
       </div>
+       <h1 className="text-5xl text-center my-12">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, laudantium!</h1>
+        <div className="w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+        {images3.map((src, i) => (
+          <div
+            key={i}
+            className="w-full h-56 rounded-xl overflow-hidden border border-gray-200 shadow hover:shadow-lg transition"
+          >
+            <img
+              src={src}
+              alt={`picture-${i}`}
+              className="w-full h-full object-cover"
+            />
+          </div>
+        ))}
+      </div>
+       <h1 className="text-5xl text-center my-12">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, laudantium!</h1>
     </div>
+    </>
+    
   );
  };
 
