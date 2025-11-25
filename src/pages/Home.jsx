@@ -116,14 +116,31 @@ const Home = () => {
 
         </div>
         </div>
-        <div className="flex justify-center items-center md:w-1/2 w-full py-4">
-          {" "}
-          <img
-            className="md:px-8 lg:px-12 w-full"
-            src="https://i.ibb.co/9WyBmLY/Design-sans-titre-1.png"
-            alt=""
-          />
-        </div>
+        <div className="flex justify-center items-center md:w-1/2 w-full py-6">
+  <div className="
+    w-full max-w-sm aspect-square 
+    overflow-hidden 
+    rounded-3xl 
+    shadow-[0_8px_30px_rgb(0,0,0,0.12)]
+    bg-white 
+    border border-gray-100 
+    hover:shadow-[0_12px_40px_rgb(0,0,0,0.18)]
+    transition-all
+    duration-300
+  ">
+    <img
+      src="https://res.cloudinary.com/dru6am4ab/image/upload/v1764084524/djebrilChemise_blanc_bmijyb.png"
+      alt=""
+      className="
+        w-full h-full 
+        object-cover 
+        object-[80%_center]   /* shift crop to the right */
+      "
+    />
+  </div>
+</div>
+
+
      
       </section>
     </>
