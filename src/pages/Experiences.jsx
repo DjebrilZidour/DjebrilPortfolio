@@ -1,4 +1,7 @@
+import { useNavigate } from "react-router-dom";
+
 const Experiences = () => {
+  const navigate= useNavigate()
   return (
     <>
     <section className="bg-yellow-100 py-8" id="experience">
@@ -179,6 +182,10 @@ const Experiences = () => {
             <img className="rounded-3xl w-96" src="https://i.ibb.co/JR5vYgTH/5.png" alt="" />
            </div>
            <h1 className="text-4xl text-center w-full"> " some pics by me and for me on my visit to french on 2023.. "</h1>
+          <button onClick={()=>{
+            navigate("/pictures")
+          }}className=" border px-8 py-2 bg-green-100  hover:bg-green-500 hover:text-white rounded-xl text-4xl capitalize uppercase">GALLERY</button>
+
         </div>
       </section>
     <section className="flex flex-col justify-center items-center my-12">
