@@ -56,6 +56,26 @@ const Pictures = () => {
     "https://res.cloudinary.com/dru6am4ab/image/upload/v1764079640/IMAGE_2025-11-25_15_07_16_apkfgf.jpg",
     "https://res.cloudinary.com/dru6am4ab/image/upload/v1764079238/IMAGE_2025-11-25_15_00_33_jx2kd5.jpg",
   ];
+  const videos = [
+    {
+      src: "https://res.cloudinary.com/dru6am4ab/video/upload/v1764078900/FILE_2025-11-25_14_54_44_xo6kbm.mp4",
+      title: "Amazing Vertical Video",
+      description:
+        "A short description of the vertical video. Perfect for portrait-style content.",
+    },
+    {
+      src: "https://www.w3schools.com/html/movie.mp4",
+      title: "Creative Demo",
+      description:
+        "A brief description about this vertical video. Keep it concise and visually appealing.",
+    },
+    {
+      src: "https://www.w3schools.com/html/mov_bbb.mp4",
+      title: "Fun Demo",
+      description: "Another vertical video with a small description below it.",
+    },
+    // Add more videos if needed
+  ];
   return (
     <>
       <Navbar />
@@ -120,6 +140,25 @@ const Pictures = () => {
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo,
           laudantium!
         </h1>
+        <div className="w-full max-w-6xl mx-auto py-10 px-4">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+        {videos.map((video, index) => (
+          <div key={index} className="flex flex-col items-center">
+            <video
+              src={video.src}
+              controls
+              className="w-64 md:w-72 lg:w-80 aspect-[9/16] rounded-2xl shadow-lg"
+            ></video>
+            <div className="text-center mt-3 max-w-xs">
+              <h2 className="text-xl md:text-2xl font-semibold mb-1">
+                {video.title}
+              </h2>
+              <p className="text-gray-700 text-sm">{video.description}</p>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
       </section>
     </>
   );

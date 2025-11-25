@@ -184,7 +184,7 @@ const Experiences = () => {
            <h1 className="text-4xl text-center w-full"> " some pics by me and for me on my visit to french on 2023.. "</h1>
           <button onClick={()=>{
             navigate("/pictures")
-          }}className=" border px-8 py-2 bg-green-100  hover:bg-green-500 hover:text-white rounded-xl text-4xl capitalize uppercase">GALLERY</button>
+          }}className=" border px-8 py-2 bg-green-100  hover:bg-green-500 hover:text-white rounded-xl text-5xl capitalize uppercase animate__animated animate__shakeX animate__infinite">GALLERY</button>
 
         </div>
       </section>
