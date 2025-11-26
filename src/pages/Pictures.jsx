@@ -29,9 +29,9 @@ function InstagramEmbed({ url }) {
 }
 
 const Pictures = () => {
-    useEffect(() => {
-    window.scrollTo({ top: 0, behavior: "auto" }); // "smooth" if you want smooth scrolling
-  }, []);
+  //   useEffect(() => {
+  //   window.scrollTo({ top: 0, behavior: "auto" }); // "smooth" if you want smooth scrolling
+  // }, []);
 
   const images1 = [
     // Add your image links here
@@ -214,6 +214,78 @@ const Pictures = () => {
       </div>
     </div>
   </div>
+   <div className="flex flex-col items-center my-12 mx-4">
+    <div className="bg-white/90 rounded-2xl shadow-lg overflow-hidden w-full max-w-xl">
+      {/* wrapper for aspect ratio (vertical video → 9/16) */}
+      <div className="aspect-[16/9] w-full">
+        <video
+          src="https://res.cloudinary.com/dru6am4ab/video/upload/v1764170898/time_lapse_bordj_el_kiffan_zhogmb.mp4"
+          controls
+          className="w-full h-full object-cover"
+        ></video>
+      </div>
+
+      {/* caption */}
+      <div className="px-5 py-4">
+        <p className="text-5xl text-gray-700 text-center font-medium">
+         i filmed this time-lapse at bprdj el kiffan algiers algeria.
+        </p>
+      </div>
+    </div>
+  </div>
+   <div className="flex flex-col items-center my-12 mx-4">
+    <div className="bg-white/90 rounded-2xl shadow-lg overflow-hidden w-full max-w-xl">
+      {/* wrapper for aspect ratio (vertical video → 9/16) */}
+      <div className="aspect-[16/9] w-full">
+        <video
+          src="https://res.cloudinary.com/dru6am4ab/video/upload/v1764170898/time_lapse_with_music_aw5s90.mp4"
+          controls
+          className="w-full h-full object-cover"
+        ></video>
+      </div>
+
+      {/* caption */}
+      <div className="px-5 py-4">
+        <p className="text-5xl text-gray-700 text-center font-medium">
+         i filmed this time-lapse at Beni saf ain timouchent algeria .
+        </p>
+      </div>
+    </div>
+  </div>
+  //! ibrahim
+   <div className="flex flex-col items-center my-12 mx-4">
+    <div className="bg-white/90 rounded-2xl shadow-lg overflow-hidden w-full max-w-xl">
+      {/* wrapper for aspect ratio (vertical video → 9/16) */}
+      <div className=" w-full">
+      <img src="https://res.cloudinary.com/dru6am4ab/image/upload/v1764171534/IMAGE_2025-11-26_16_38_51_dryncf.jpg" alt="" />
+      </div>
+
+      {/* caption */}
+      <div className="px-5 py-4">
+        <p className="text-5xl text-gray-700 text-center font-medium">
+        my metting with ibrahim seddik taleb <br /> youtube Channel:
+        </p>
+      </div>
+    </div>
+  </div>
+ //!ramzi
+ <div className="flex flex-col items-center my-12 mx-4">
+    <div className="bg-white/90 rounded-2xl shadow-lg overflow-hidden w-full max-w-xl">
+      {/* wrapper for aspect ratio (vertical video → 9/16) */}
+      <div className=" w-full">
+      <img src="https://res.cloudinary.com/dru6am4ab/image/upload/v1764171512/IMAGE_2025-11-26_16_38_28_cg3zzq.jpg" alt="" />
+      </div>
+
+      {/* caption */}
+      <div className="px-5 py-4">
+        <p className="text-5xl text-gray-700 text-center font-medium">
+        my metting with ramzi ikoirene called on social media ramzi_digital  
+        instagram:
+        </p>
+      </div>
+    </div>
+  </div>
+
       </section>
     </>
   );
