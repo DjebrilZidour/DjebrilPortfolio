@@ -195,7 +195,7 @@ const Pictures = () => {
         </div>
       </div>
     </div>
-     <div className="flex flex-col items-center my-12">
+     <div className="flex flex-col items-center my-12 mx-4">
     <div className="bg-white/90 rounded-2xl shadow-lg overflow-hidden w-full max-w-xl">
       {/* wrapper for aspect ratio (vertical video → 9/16) */}
       <div className="aspect-[16/9] w-full">
