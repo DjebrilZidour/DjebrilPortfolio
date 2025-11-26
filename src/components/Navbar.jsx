@@ -61,6 +61,20 @@ const Navbar = () => {
                 Diplomes
               </Link>
             </li>
+              <li className="px-4 font-semibold text-black cursor-pointer hover:underline text-2xl capitalize">
+              <Link
+                to="/pictures"
+                spy={true}
+                smooth={true}
+                offset={50}
+                duration={500}
+                 onClick={()=>{
+                  navigate("/pictures")
+                }}
+              >
+                Gallery
+              </Link>
+            </li>
 
             <li className="px-4 font-semibold text-black cursor-pointer hover:underline text-2xl capitalize">
               <Link
@@ -118,6 +132,20 @@ const Navbar = () => {
                 }}
               >
                 Diplomes
+              </Link>
+            </li>
+             <li className="px-2 font-semibold text-black cursor-pointer hover:underline text-lg capitalize">
+              <Link
+                to="/pictures"
+                spy={true}
+                smooth={true}
+                offset={50}
+                duration={500}
+                 onClick={()=>{
+                  navigate("/pictures")
+                }}
+              >
+                Gallery
               </Link>
             </li>
 

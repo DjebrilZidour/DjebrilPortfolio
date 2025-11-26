@@ -80,7 +80,7 @@ const Pictures = () => {
     <>
       <Navbar />
       <div className="w-full min-h-screen px-6 py-10 bg-white">
-        <h1 className="text-3xl font-bold mb-8 text-center">My Gallery</h1>
+        <h1 className="text-5xl font-bold mb-8 text-center">Gallery</h1>
 
         <div className="w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
           {images1.map((src, i) => (
@@ -132,31 +132,63 @@ const Pictures = () => {
             </div>
           ))}
         </div>
-        
+      <h1 className="text-5xl text-center mx-4 capitalize my-8">
+         my participation on  <a className="text-blue-500 underline curor-pointer" href="https://www.facebook.com/photo/?fbid=345680184775234&set=pcb.345680294775223">league of robotics</a>
+        </h1>  
       </div>
+
       <section className="flex flex-col justify-center items-center  mb-12">
         <InstagramEmbed url="https://www.instagram.com/reel/C0EBIoYI-R6/" />
-        <h1 className="text-5xl text-center my-12 mx-4">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo,
-          laudantium!
+        <h1 className="text-5xl text-center mx-4  my-8">
+         At the end of this video, I present the concept of my robot, created as part of my participation in the Robotics League
         </h1>
-        <div className="w-full max-w-6xl mx-auto py-10 px-4">
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
-        {videos.map((video, index) => (
-          <div key={index} className="flex flex-col items-center">
-            <video
-              src={video.src}
-              controls
-              className="w-64 md:w-72 lg:w-80 aspect-[9/16] rounded-2xl shadow-lg"
-            ></video>
-            <div className="text-center mt-3 max-w-xs">
-              <h2 className="text-xl md:text-2xl font-semibold mb-1">
-                {video.title}
-              </h2>
-              <p className="text-gray-700 text-sm">{video.description}</p>
-            </div>
-          </div>
-        ))}
+      <div className="w-full max-w-5xl mx-auto py-10 px-4 space-y-14">
+
+  {/* Video Item 1 */}
+  <div className="flex flex-col items-center">
+    <div className="bg-white/90 rounded-2xl shadow-lg overflow-hidden w-full max-w-xl">
+      {/* wrapper for aspect ratio (vertical video → 9/16) */}
+      <div className="aspect-[9/16] w-full">
+        <video
+          src="https://res.cloudinary.com/dru6am4ab/video/upload/v1764078900/FILE_2025-11-25_14_54_44_xo6kbm.mp4"
+          controls
+          className="w-full h-full object-cover"
+        ></video>
+      </div>
+
+      {/* caption */}
+      <div className="px-5 py-4">
+        <p className="text-5xl text-gray-700 text-center font-medium">
+          A video of me presenting one of my videos to the U.S. Embassy and the CEO of the American Institute.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  {/* Video Item 2… (you can copy/paste the same structure) */}
+
+</div>
+
+    <div className="w-full max-w-2xl mx-auto p-4">
+      {/* Video wrapper: responsive, rounded, shadow */}
+      <div className="bg-white/90 rounded-2xl shadow-lg overflow-hidden">
+        {/* Aspect-ratio: use `aspect-video` (16:9). If your Tailwind doesn't include it, use aspect-[16/9] */}
+        <div className="aspect-video w-full">
+          <iframe
+            className="w-full h-full block"
+            src="https://www.youtube.com/embed/O8Ofj3fdFYE"
+            title="YouTube video player"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+            loading="lazy"
+          />
+        </div>
+
+        {/* small caption / label */}
+        <div className="px-4 py-3">
+          <p className="text-5xl text-gray-600 text-center">The video ends with me discussing how learning English has influenced my personal and professional path</p>
+        </div>
       </div>
     </div>
       </section>
