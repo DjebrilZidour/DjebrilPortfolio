@@ -58,7 +58,7 @@ const Navbar = () => {
                   navigate("/")
                 }}
               >
-                Diplomes
+                Diplomas
               </Link>
             </li>
               <li className="px-4 font-semibold text-black cursor-pointer hover:underline text-2xl capitalize">
@@ -131,7 +131,7 @@ const Navbar = () => {
                   navigate("/")
                 }}
               >
-                Diplomes
+                Diplomas
               </Link>
             </li>
              <li className="px-2 font-semibold text-black cursor-pointer hover:underline text-lg capitalize">

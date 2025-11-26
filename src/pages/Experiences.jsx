@@ -5,7 +5,7 @@ const Experiences = () => {
   return (
     <>
     <section className="bg-yellow-100 py-8" id="experience">
-      <h1 className="text-6xl  underline text-center my-8">Diplomes</h1>
+      <h1 className="text-6xl  underline text-center my-8">Diplomas</h1>
       <div className="flex justify-center items-center flex-col-reverse gap-8 md:mx-12">
         <div className="flex justify-center items-center flex-col md:flex-row gap-4">
           <div className="flex flex-col justify-center items-center md:w-1/2  gap-4 ">
