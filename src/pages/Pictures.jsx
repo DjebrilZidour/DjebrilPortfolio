@@ -29,6 +29,10 @@ function InstagramEmbed({ url }) {
 }
 
 const Pictures = () => {
+    useEffect(() => {
+    window.scrollTo({ top: 0, behavior: "auto" }); // "smooth" if you want smooth scrolling
+  }, []);
+
   const images1 = [
     // Add your image links here
     "https://res.cloudinary.com/dru6am4ab/image/upload/v1763674294/IMAGE_2025-11-20_22_31_27_gg5zy9.jpg",

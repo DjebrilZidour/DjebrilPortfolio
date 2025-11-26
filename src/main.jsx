@@ -5,6 +5,7 @@ import Blog from './pages/Blog'
 import { createBrowserRouter, RouterProvider, Navigate } from "react-router-dom";
 import Pictures from './pages/Pictures';
 
+
 const router = createBrowserRouter([
   {
     path: "/",
