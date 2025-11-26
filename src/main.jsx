@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client'
 import App from './app/App'
 import Blog from './pages/Blog'
 import { createBrowserRouter, RouterProvider, Navigate } from "react-router-dom";
-import Pictures from './pages/pictures';
+import Pictures from './pages/Pictures';
 
 const router = createBrowserRouter([
   {
