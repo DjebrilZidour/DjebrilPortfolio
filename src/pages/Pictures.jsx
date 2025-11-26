@@ -191,6 +191,25 @@ const Pictures = () => {
         </div>
       </div>
     </div>
+     <div className="flex flex-col items-center my-12">
+    <div className="bg-white/90 rounded-2xl shadow-lg overflow-hidden w-full max-w-xl">
+      {/* wrapper for aspect ratio (vertical video → 9/16) */}
+      <div className="aspect-[16/9] w-full">
+        <video
+          src="https://res.cloudinary.com/dru6am4ab/video/upload/v1764161008/vd_finale_officiele_1_zuiaas.mp4"
+          controls
+          className="w-full h-full object-cover"
+        ></video>
+      </div>
+
+      {/* caption */}
+      <div className="px-5 py-4">
+        <p className="text-5xl text-gray-700 text-center font-medium">
+         the international conerence filmed by me done on fghj juin 2022 Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, ducimus.
+        </p>
+      </div>
+    </div>
+  </div>
       </section>
     </>
   );
