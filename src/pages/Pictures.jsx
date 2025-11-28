@@ -29,9 +29,9 @@ function InstagramEmbed({ url }) {
 }
 
 const Pictures = () => {
-  //   useEffect(() => {
-  //   window.scrollTo({ top: 0, behavior: "auto" }); // "smooth" if you want smooth scrolling
-  // }, []);
+     useEffect(() => {
+     window.scrollTo({ top: 0, behavior: "auto" }); // "smooth" if you want smooth scrolling
+   }, []);
 
   const images1 = [
     // Add your image links here
@@ -260,7 +260,7 @@ const Pictures = () => {
       <img src="https://res.cloudinary.com/dru6am4ab/image/upload/v1764171534/IMAGE_2025-11-26_16_38_51_dryncf.jpg" alt="" />
       </div>
 
-      {/* caption */}
+      {/* caption  https://res.cloudinary.com/dru6am4ab/image/upload/v1764351940/IMAGE_2025-11-28_18_45_34_k9bnom.jpg*/}
       <div className="px-5 py-4">
         <p className="text-5xl text-gray-700 text-center font-medium">
         my metting with ibrahim seddik taleb <br /> youtube Channel:
@@ -281,6 +281,21 @@ const Pictures = () => {
         <p className="text-5xl text-gray-700 text-center font-medium">
         my metting with ramzi ikoirene called on social media ramzi_digital  
         instagram:
+        </p>
+      </div>
+    </div>
+  </div>
+  <div className="flex flex-col items-center my-12 mx-4">
+    <div className="bg-white/90 rounded-2xl shadow-lg overflow-hidden w-full max-w-xl">
+      {/* wrapper for aspect ratio (vertical video → 9/16) */}
+      <div className=" w-full">
+      <img src="https://res.cloudinary.com/dru6am4ab/image/upload/v1764351940/IMAGE_2025-11-28_18_45_34_k9bnom.jpg" alt="" />
+      </div>
+
+      {/* caption  */}
+      <div className="px-5 py-4">
+        <p className="text-5xl text-gray-700 text-center font-medium">
+       my meeting with the 
         </p>
       </div>
     </div>
