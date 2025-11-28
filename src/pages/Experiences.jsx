@@ -17,7 +17,7 @@ const Experiences = () => {
             <h1 className="capitalize md:text-3xl text-2xl">
               Full stack web development
             </h1>
-            <p className="uppercase">By Udacity</p>
+            <p className="text-xl">By Udacity</p>
           </div>
           <div className="flex flex-col justify-center items-center md:w-1/2  gap-4 "> 
             <img
@@ -28,7 +28,7 @@ const Experiences = () => {
             <h1 className="capitalize md:text-3xl text-2xl">
               Aikido attestaion blue belt
             </h1>
-            <p className="uppercase">by n.r.b.b.e</p>
+            <p className="text-xl">by n.r.b.b.e</p>
           </div>
         </div>
         <div className="flex justify-center items-center flex-col md:flex-row gap-4 ">
@@ -40,7 +40,7 @@ const Experiences = () => {
             <h1 className="capitalize md:text-3xl text-2xl">
               English C1.1 level
             </h1>
-            <p className="uppercase"> by American institute</p>
+            <p className="text-xl"> by American institute</p>
           </div>
           
           <div className="flex flex-col justify-center items-center md:w-1/2  gap-4 ">
@@ -52,7 +52,7 @@ const Experiences = () => {
             <h1 className="capitalize md:text-3xl text-2xl">
               robotic and arduino 
             </h1>
-            <p className="uppercase">by Techmology</p>
+            <p className="text-xl">by Techmology</p>
           </div>
         </div>
          <div className="flex justify-center items-center flex-col md:flex-row gap-4">
@@ -65,7 +65,7 @@ const Experiences = () => {
             <h1 className="capitalize md:text-3xl text-2xl">
              Full-Stack JavaScript Program
             </h1>
-            <p className="uppercase">by Gomy Code</p>
+            <p className="text-xl">by Gomy Code</p>
           </div>
            <div className="flex flex-col justify-center items-center md:w-1/2  gap-4 "> 
             <img
@@ -76,7 +76,7 @@ const Experiences = () => {
             <h1 className="capitalize md:text-3xl text-2xl">
              introduction to marketing digital
             </h1>
-            <p className="uppercase">By Code 213</p>
+            <p className="text-xl">By Code 213</p>
           </div>
           
         </div>
@@ -90,7 +90,7 @@ const Experiences = () => {
             <h1 className="capitalize md:text-3xl text-2xl">
               Complete Facebook Ads Course 
             </h1>
-            <p className="uppercase">by izi road</p>
+            <p className="text-xl">by izi road</p>
           </div>
           <div className="flex flex-col justify-center items-center md:w-1/2  gap-4 "> 
             <img
@@ -101,7 +101,7 @@ const Experiences = () => {
             <h1 className="capitalize md:text-3xl text-2xl">
              Galop 4 
             </h1>
-            <p className="uppercase">by FFE</p>
+            <p className="text-xl">by FFE</p>
           </div>
         </div>
       </div>
