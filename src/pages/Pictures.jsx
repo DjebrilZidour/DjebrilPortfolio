@@ -46,7 +46,7 @@ const Pictures = () => {
   ];
   const images3 = [
     // Add your image links here
-    "https://scontent.falg6-1.fna.fbcdn.net/v/t39.30808-6/484946673_647840847892498_7813010450854505097_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeFfIfkolcxD-FX9HJtMVObInfinNgVuj2Gd-Kc2BW6PYbvU4jXBTZ7JnvoYjbhD6J9skvkIu6EaBC-bawjJ6ybz&_nc_ohc=scHBMhLXEJkQ7kNvwGhGYSU&_nc_oc=AdkHtaAnGyf1Gl_Dy77QJrcE8T5FkCm1SBuPcgIzpV6E91FwqNWQEs5xTuESxFMd0YM&_nc_zt=23&_nc_ht=scontent.falg6-1.fna&_nc_gid=Cm0g8PC1b4cbIihAjPjTnQ&oh=00_AfhjbOnCmIMO9hHPBbwFr5toXi9Hx6y-MCcLEI0kDHWBOQ&oe=692CBF55",
+    "https://res.cloudinary.com/dru6am4ab/image/upload/v1764630208/robotic_pic_vmdtiu.jpg",
     "https://res.cloudinary.com/dru6am4ab/image/upload/v1763675906/IMAGE_2025-11-20_22_58_18_ye5po1.jpg",
     "https://res.cloudinary.com/dru6am4ab/image/upload/v1764078904/IMAGE_2025-11-25_14_54_55_i1bq1f.jpg",
     "https://res.cloudinary.com/dru6am4ab/image/upload/v1764079651/IMAGE_2025-11-25_15_07_28_fyfvi9.jpg",
@@ -78,7 +78,7 @@ const Pictures = () => {
       <Navbar />
       <div className="w-full min-h-screen px-6 py-10 bg-white">
         <h1 className="text-5xl font-bold mb-8 text-center">Gallery</h1>
-         <section className="flex justify-between align-center  md:mx-32 mx-4 my-16 flex-col">
+         <section className="flex justify-between align-center  md:mx-32  my-16 flex-col">
         <h1 className=" text-center text-4xl mb-5 underline ">  School Projects </h1>
         <div className="flex justify-center align-center flex-col items-center gap-8 w-full">
           <div className="bg-yellow-100 md:w-1/2 w-full aspect-video rounded-2xl overflow-hidden shadow-xl  p-3  ">
