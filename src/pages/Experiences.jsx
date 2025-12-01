@@ -106,7 +106,7 @@ const Experiences = () => {
         </div>
       </div>
     </section>
-    <section className="flex justify-between align-center  md:mx-32 mx-4 my-16 flex-col">
+    {/* <section className="flex justify-between align-center  md:mx-32 mx-4 my-16 flex-col">
         <h1 className=" text-center text-4xl mb-5 underline ">  School Projects </h1>
         <div className="flex justify-center align-center flex-col items-center gap-8 w-full">
           <div className="bg-yellow-100 md:w-1/2 w-full aspect-video rounded-2xl overflow-hidden shadow-xl  p-3  ">
@@ -133,11 +133,11 @@ const Experiences = () => {
           <h1 className="text-4xl text-center w-full"> " This project was a middle school homework "</h1>
            
         </div>
-      </section>
+      </section> */}
       <section className="flex justify-between align-center  md:mx-32 mx-4 my-16 flex-col">
-        <h1 className=" text-center text-4xl mb-5 underline capitalize ">  Courses Projects + random videos by me </h1>
+        {/* <h1 className=" text-center text-4xl mb-5 underline capitalize ">  Courses Projects + random videos by me </h1> */}
         <div className="flex justify-center align-center flex-col items-center gap-8 w-full">
-          <div className="bg-yellow-100 md:w-1/2 w-full aspect-video rounded-2xl overflow-hidden shadow-xl  p-3  ">
+          {/* <div className="bg-yellow-100 md:w-1/2 w-full aspect-video rounded-2xl overflow-hidden shadow-xl  p-3  ">
             <iframe
               src="https://fast.wistia.net/embed/iframe/jw3cregqri"
               title="Gomy code final video"
@@ -174,20 +174,21 @@ const Experiences = () => {
                     <img className="rounded-3xl"  src="https://i.ibb.co/Kz7rtWRb/IMAGE-2025-11-01-01-00-16.jpg" alt="" />
             
          
-          <h1 className="text-4xl text-center w-full"> " behind the scene "</h1>
+          <h1 className="text-4xl text-center w-full"> " behind the scene "</h1> */}
            <div className="grid grid-cols-2 gap-4 gap-4">
             <img className="rounded-3xl w-96" src="https://i.ibb.co/NgxVZW8L/1.png" alt="" />
             <img className="rounded-3xl w-96" src="https://i.ibb.co/rRsWfvqP/2.png" alt="" />
             <img className="rounded-3xl w-96" src="https://i.ibb.co/LzR2gY78/3.png" alt="" />
             <img className="rounded-3xl w-96" src="https://i.ibb.co/JR5vYgTH/5.png" alt="" />
            </div>
-           <h1 className="text-4xl text-center w-full"> " some pics by me and for me on my visit to french on 2023.. "</h1>
+           <h1 className="text-4xl text-center w-full"> Some photos I took during my visit to France in 2023.</h1>
           <button onClick={()=>{
             navigate("/pictures")
           }}className=" border px-8 py-2 bg-green-100  hover:bg-green-500 hover:text-white rounded-xl text-5xl capitalize uppercase animate__animated animate__shakeX animate__infinite">GALLERY</button>
 
         </div>
       </section>
+    
     <section className="flex flex-col justify-center items-center my-12">
       <h1 className="text-6xl py-8 underline text-center">Currently Working On</h1>
       <h1 className="text-5xl text-green-500 ">DJEBRIL ACADEMY</h1>
