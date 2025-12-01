@@ -11,27 +11,20 @@ function InstagramEmbed({ url }) {
   }, []);
 
   return (
-    
-     <blockquote
-  className="instagram-media"
-  data-instgrm-permalink={url}
-  style={{
-    
-    background: "#FFF",
-  
-  
-   
-  }}
-></blockquote>
-
-  
+    <blockquote
+      className="instagram-media"
+      data-instgrm-permalink={url}
+      style={{
+        background: "#FFF",
+      }}
+    ></blockquote>
   );
 }
 
 const Pictures = () => {
-     useEffect(() => {
-     window.scrollTo({ top: 0, behavior: "auto" }); // "smooth" if you want smooth scrolling
-   }, []);
+  //    useEffect(() => {
+  //    window.scrollTo({ top: 0, behavior: "auto" }); // "smooth" if you want smooth scrolling
+  //  }, []);
 
   const images1 = [
     // Add your image links here
@@ -101,8 +94,8 @@ const Pictures = () => {
           ))}
         </div>
         <h1 className="text-5xl text-center my-12">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo,
-          laudantium!
+          Photographing historical artifacts at the Mustapha Pacha Museum as
+          part of the 3D simulation project.
         </h1>
         <div className="w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
           {images2.map((src, i) => (
@@ -119,8 +112,8 @@ const Pictures = () => {
           ))}
         </div>
         <h1 className="text-5xl text-center my-12">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo,
-          laudantium!
+          Documenting my trip through France and Holland — capturing Sorbonne
+          University, the Eiffel Tower, the Louvre, and more.
         </h1>
         <div className="w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
           {images3.map((src, i) => (
@@ -136,171 +129,193 @@ const Pictures = () => {
             </div>
           ))}
         </div>
-      <h1 className="text-5xl text-center mx-4 capitalize my-8">
-         my participation on  <a className="text-blue-500 underline curor-pointer" href="https://www.facebook.com/photo/?fbid=345680184775234&set=pcb.345680294775223">league of robotics</a>
-        </h1>  
+        <h1 className="text-5xl text-center mx-4 my-8">
+          Participation in “League of Robotics 2” — responsible for designing,
+          assembling, and programming my own robot (November 2023).{" "}
+          <a
+            className="text-blue-500 underline curor-pointer"
+            href="https://www.facebook.com/photo/?fbid=345680184775234&set=pcb.345680294775223"
+          >
+            league of robotics
+          </a>
+        </h1>
       </div>
 
       <section className="flex flex-col justify-center items-center  mb-12">
         <InstagramEmbed url="https://www.instagram.com/reel/C0EBIoYI-R6/" />
         <h1 className="text-5xl text-center mx-4  my-8">
-         At the end of this video, I present the concept of my robot, created as part of my participation in the Robotics League
+          At the end of this video, I present the concept of my robot, created
+          as part of my participation in the Robotics League
         </h1>
-      <div className="w-full max-w-5xl mx-auto py-10 px-4 space-y-14">
+        <div className="w-full max-w-5xl mx-auto py-10 px-4 space-y-14">
+          {/* Video Item 1 */}
+          <div className="flex flex-col items-center">
+            <div className="bg-white/90 rounded-2xl shadow-lg overflow-hidden w-full max-w-xl">
+              {/* wrapper for aspect ratio (vertical video → 9/16) */}
+              <div className="aspect-[9/16] w-full">
+                <video
+                  src="https://res.cloudinary.com/dru6am4ab/video/upload/v1764078900/FILE_2025-11-25_14_54_44_xo6kbm.mp4"
+                  controls
+                  className="w-full h-full object-cover"
+                ></video>
+              </div>
 
-  {/* Video Item 1 */}
-  <div className="flex flex-col items-center">
-    <div className="bg-white/90 rounded-2xl shadow-lg overflow-hidden w-full max-w-xl">
-      {/* wrapper for aspect ratio (vertical video → 9/16) */}
-      <div className="aspect-[9/16] w-full">
-        <video
-          src="https://res.cloudinary.com/dru6am4ab/video/upload/v1764078900/FILE_2025-11-25_14_54_44_xo6kbm.mp4"
-          controls
-          className="w-full h-full object-cover"
-        ></video>
-      </div>
+              {/* caption */}
+              <div className="px-5 py-4">
+                <p className="text-5xl text-gray-700 text-center font-medium">
+                  A video of me presenting one of my videos to the U.S. Embassy
+                  and the CEO of the American Institute.
+                </p>
+              </div>
+            </div>
+          </div>
 
-      {/* caption */}
-      <div className="px-5 py-4">
-        <p className="text-5xl text-gray-700 text-center font-medium">
-          A video of me presenting one of my videos to the U.S. Embassy and the CEO of the American Institute.
-        </p>
-      </div>
-    </div>
-  </div>
-
-  {/* Video Item 2… (you can copy/paste the same structure) */}
-
-</div>
-
-    <div className="w-full max-w-2xl mx-auto p-4">
-      {/* Video wrapper: responsive, rounded, shadow */}
-      <div className="bg-white/90 rounded-2xl shadow-lg overflow-hidden">
-        {/* Aspect-ratio: use `aspect-video` (16:9). If your Tailwind doesn't include it, use aspect-[16/9] */}
-        <div className="aspect-video w-full">
-          <iframe
-            className="w-full h-full block"
-            src="https://www.youtube.com/embed/O8Ofj3fdFYE"
-            title="YouTube video player"
-            frameBorder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowFullScreen
-            loading="lazy"
-          />
+          {/* Video Item 2… (you can copy/paste the same structure) */}
         </div>
+        <div className="w-full max-w-2xl mx-auto p-4">
+          {/* Video wrapper: responsive, rounded, shadow */}
+          <div className="bg-white/90 rounded-2xl shadow-lg overflow-hidden">
+            {/* Aspect-ratio: use `aspect-video` (16:9). If your Tailwind doesn't include it, use aspect-[16/9] */}
+            <div className="aspect-video w-full">
+              <iframe
+                className="w-full h-full block"
+                src="https://www.youtube.com/embed/O8Ofj3fdFYE"
+                title="YouTube video player"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+                loading="lazy"
+              />
+            </div>
 
-        {/* small caption / label */}
-        <div className="px-4 py-3">
-          <p className="text-5xl text-gray-600 text-center">The video ends with me discussing how learning English has influenced my personal and professional path</p>
+            {/* small caption / label */}
+            <div className="px-4 py-3">
+              <p className="text-5xl text-gray-600 text-center">
+                The video ends with me discussing how learning English has
+                influenced my personal and professional path
+              </p>
+            </div>
+          </div>
         </div>
-      </div>
-    </div>
-     <div className="flex flex-col items-center my-12 mx-4">
-    <div className="bg-white/90 rounded-2xl shadow-lg overflow-hidden w-full max-w-xl">
-      {/* wrapper for aspect ratio (vertical video → 9/16) */}
-      <div className="aspect-[16/9] w-full">
-        <video
-          src="https://res.cloudinary.com/dru6am4ab/video/upload/v1764161008/vd_finale_officiele_1_zuiaas.mp4"
-          controls
-          className="w-full h-full object-cover"
-        ></video>
-      </div>
+        <div className="flex flex-col items-center my-12 mx-4">
+          <div className="bg-white/90 rounded-2xl shadow-lg overflow-hidden w-full max-w-xl">
+            {/* wrapper for aspect ratio (vertical video → 9/16) */}
+            <div className="aspect-[16/9] w-full">
+              <video
+                src="https://res.cloudinary.com/dru6am4ab/video/upload/v1764161008/vd_finale_officiele_1_zuiaas.mp4"
+                controls
+                className="w-full h-full object-cover"
+              ></video>
+            </div>
 
-      {/* caption */}
-      <div className="px-5 py-4">
-        <p className="text-5xl text-gray-700 text-center font-medium">
-         the international conerence filmed by me done on fghj juin 2022 Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, ducimus.
-        </p>
-      </div>
-    </div>
-  </div>
-   <div className="flex flex-col items-center my-12 mx-4">
-    <div className="bg-white/90 rounded-2xl shadow-lg overflow-hidden w-full max-w-xl">
-      {/* wrapper for aspect ratio (vertical video → 9/16) */}
-      <div className="aspect-[16/9] w-full">
-        <video
-          src="https://res.cloudinary.com/dru6am4ab/video/upload/v1764170898/time_lapse_bordj_el_kiffan_zhogmb.mp4"
-          controls
-          className="w-full h-full object-cover"
-        ></video>
-      </div>
+            {/* caption */}
+            <div className="px-5 py-4">
+              <p className="text-5xl text-gray-700 text-center font-medium">
+                Filming and capturing the official video of “ICETSE 2023,” an
+                international conference on environmental energies and
+                sustainable energy solutions — October 2023.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col items-center my-12 mx-4">
+          <div className="bg-white/90 rounded-2xl shadow-lg overflow-hidden w-full max-w-xl">
+            {/* wrapper for aspect ratio (vertical video → 9/16) */}
+            <div className="aspect-[16/9] w-full">
+              <video
+                src="https://res.cloudinary.com/dru6am4ab/video/upload/v1764170898/time_lapse_bordj_el_kiffan_zhogmb.mp4"
+                controls
+                className="w-full h-full object-cover"
+              ></video>
+            </div>
 
-      {/* caption */}
-      <div className="px-5 py-4">
-        <p className="text-5xl text-gray-700 text-center font-medium">
-         i filmed this time-lapse at bprdj el kiffan algiers algeria.
-        </p>
-      </div>
-    </div>
-  </div>
-   <div className="flex flex-col items-center my-12 mx-4">
-    <div className="bg-white/90 rounded-2xl shadow-lg overflow-hidden w-full max-w-xl">
-      {/* wrapper for aspect ratio (vertical video → 9/16) */}
-      <div className="aspect-[16/9] w-full">
-        <video
-          src="https://res.cloudinary.com/dru6am4ab/video/upload/v1764170898/time_lapse_with_music_aw5s90.mp4"
-          controls
-          className="w-full h-full object-cover"
-        ></video>
-      </div>
+            {/* caption */}
+            <div className="px-5 py-4">
+              <p className="text-5xl text-gray-700 text-center font-medium">
+                Capturing the beauty of <br /> Borj El Kiffan <br /> through a
+                time-lapse filmed by me.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col items-center my-12 mx-4">
+          <div className="bg-white/90 rounded-2xl shadow-lg overflow-hidden w-full max-w-xl">
+            {/* wrapper for aspect ratio (vertical video → 9/16) */}
+            <div className="aspect-[16/9] w-full">
+              <video
+                src="https://res.cloudinary.com/dru6am4ab/video/upload/v1764170898/time_lapse_with_music_aw5s90.mp4"
+                controls
+                className="w-full h-full object-cover"
+              ></video>
+            </div>
 
-      {/* caption */}
-      <div className="px-5 py-4">
-        <p className="text-5xl text-gray-700 text-center font-medium">
-         i filmed this time-lapse at Beni saf ain timouchent algeria .
-        </p>
-      </div>
-    </div>
-  </div>
-  //! ibrahim
-   <div className="flex flex-col items-center my-12 mx-4">
-    <div className="bg-white/90 rounded-2xl shadow-lg overflow-hidden w-full max-w-xl">
-      {/* wrapper for aspect ratio (vertical video → 9/16) */}
-      <div className=" w-full">
-      <img src="https://res.cloudinary.com/dru6am4ab/image/upload/v1764171534/IMAGE_2025-11-26_16_38_51_dryncf.jpg" alt="" />
-      </div>
+            {/* caption */}
+            <div className="px-5 py-4">
+              <p className="text-5xl text-gray-700 text-center font-medium">
+                Western Algeria in motion, captured through a time-lapse lens by
+                me.
+              </p>
+            </div>
+          </div>
+        </div>
+       
+        <div className="flex flex-col items-center my-12 mx-4">
+          <div className="bg-white/90 rounded-2xl shadow-lg overflow-hidden w-full max-w-xl">
+            {/* wrapper for aspect ratio (vertical video → 9/16) */}
+            <div className=" w-full">
+              <img
+                src="https://res.cloudinary.com/dru6am4ab/image/upload/v1764171534/IMAGE_2025-11-26_16_38_51_dryncf.jpg"
+                alt=""
+              />
+            </div>
 
-      {/* caption  https://res.cloudinary.com/dru6am4ab/image/upload/v1764351940/IMAGE_2025-11-28_18_45_34_k9bnom.jpg*/}
-      <div className="px-5 py-4">
-        <p className="text-5xl text-gray-700 text-center font-medium">
-        my metting with ibrahim seddik taleb <br /> youtube Channel:
-        </p>
-      </div>
-    </div>
-  </div>
- //!ramzi
- <div className="flex flex-col items-center my-12 mx-4">
-    <div className="bg-white/90 rounded-2xl shadow-lg overflow-hidden w-full max-w-xl">
-      {/* wrapper for aspect ratio (vertical video → 9/16) */}
-      <div className=" w-full">
-      <img src="https://res.cloudinary.com/dru6am4ab/image/upload/v1764171512/IMAGE_2025-11-26_16_38_28_cg3zzq.jpg" alt="" />
-      </div>
+            {/* caption  https://res.cloudinary.com/dru6am4ab/image/upload/v1764351940/IMAGE_2025-11-28_18_45_34_k9bnom.jpg*/}
+            <div className="px-5 py-4">
+              <p className="text-5xl text-gray-700 text-center font-medium">
+                A memorable meeting with Ibrahim Seddik Taleb, YouTube content
+                creator, discussing filmmaking and photography.
+              </p>
+            </div>
+          </div>
+        </div>
+      
+        <div className="flex flex-col items-center my-12 mx-4">
+          <div className="bg-white/90 rounded-2xl shadow-lg overflow-hidden w-full max-w-xl">
+            {/* wrapper for aspect ratio (vertical video → 9/16) */}
+            <div className=" w-full">
+              <img
+                src="https://res.cloudinary.com/dru6am4ab/image/upload/v1764171512/IMAGE_2025-11-26_16_38_28_cg3zzq.jpg"
+                alt=""
+              />
+            </div>
 
-      {/* caption */}
-      <div className="px-5 py-4">
-        <p className="text-5xl text-gray-700 text-center font-medium">
-        my metting with ramzi ikoirene called on social media ramzi_digital  
-        instagram:
-        </p>
-      </div>
-    </div>
-  </div>
-  <div className="flex flex-col items-center my-12 mx-4">
-    <div className="bg-white/90 rounded-2xl shadow-lg overflow-hidden w-full max-w-xl">
-      {/* wrapper for aspect ratio (vertical video → 9/16) */}
-      <div className=" w-full">
-      <img src="https://res.cloudinary.com/dru6am4ab/image/upload/v1764351940/IMAGE_2025-11-28_18_45_34_k9bnom.jpg" alt="" />
-      </div>
+            {/* caption */}
+            <div className="px-5 py-4">
+              <p className="text-5xl text-gray-700 text-center font-medium">
+                Meeting Ramzi Ikouirene <a className="text-blue-500 underline cursor-pointer" href="https://www.instagram.com/marketingramzi">MarketingRamzi on Instagram</a>, a digital
+                marketing content creator.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col items-center my-12 mx-4">
+          <div className="bg-white/90 rounded-2xl shadow-lg overflow-hidden w-full max-w-xl">
+            {/* wrapper for aspect ratio (vertical video → 9/16) */}
+            <div className=" w-full">
+              <img
+                src="https://res.cloudinary.com/dru6am4ab/image/upload/v1764351940/IMAGE_2025-11-28_18_45_34_k9bnom.jpg"
+                alt=""
+              />
+            </div>
 
-      {/* caption  */}
-      <div className="px-5 py-4">
-        <p className="text-5xl text-gray-700 text-center font-medium">
-       my meeting with the 
-        </p>
-      </div>
-    </div>
-  </div>
-
+            {/* caption  */}
+            <div className="px-5 py-4">
+              <p className="text-5xl text-gray-700 text-center font-medium">
+              Meeting Yacine Oualid, Minister of Startups in Algeria, at the Educteck event.
+              </p>
+            </div>
+          </div>
+        </div>
       </section>
     </>
   );
