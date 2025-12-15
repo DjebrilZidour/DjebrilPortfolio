@@ -22,9 +22,9 @@ function InstagramEmbed({ url }) {
 }
 
 const Pictures = () => {
-  //    useEffect(() => {
-  //    window.scrollTo({ top: 0, behavior: "auto" }); // "smooth" if you want smooth scrolling
-  //  }, []);
+    useEffect(() => {
+    window.scrollTo({ top: 0, behavior: "auto" }); // "smooth" if you want smooth scrolling
+  }, []);
 
   const images1 = [
     // Add your image links here
