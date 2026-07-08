@@ -134,7 +134,7 @@ const Navbar = () => {
                 Diplomas
               </Link>
             </li>
-             <li className="px-2 font-semibold text-black cursor-pointer hover:underline text-lg capitalize">
+             {/* <li className="px-2 font-semibold text-black cursor-pointer hover:underline text-lg capitalize">
               <Link
                 to="/pictures"
                 spy={true}
@@ -147,7 +147,7 @@ const Navbar = () => {
               >
                 Gallery
               </Link>
-            </li>
+            </li> */}
 
             <li className="px-2 font-semibold text-black cursor-pointer hover:underline text-lg capitalize">
               <Link
